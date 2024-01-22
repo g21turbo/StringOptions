@@ -30,6 +30,9 @@ public class Main {
         builderPlus.replace(16, 17, "G");
         System.out.println(builderPlus);
 
+        builderPlus.reverse().setLength(7);
+        System.out.println(builderPlus);
+
     }
 
 
